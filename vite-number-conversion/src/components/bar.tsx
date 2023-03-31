@@ -1,8 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import Animation from './animation';
 
 const InteractiveSpline = styled.div`
-  // add your Interactive Spline styles here
+  position: absolute;
+  pointer-events: none;
+  top: 0px;
+  left: 0;
+  z-index: 1;
 `;
 
 const CounterContainer = styled.div`
@@ -23,8 +28,8 @@ const TransparentDiv = styled.div`
 const Bar = () => {
   return (
     <TransparentDiv>
-      <InteractiveSpline />
-      <CounterContainer>999</CounterContainer>
+      <InteractiveSpline><Animation></Animation></InteractiveSpline>
+      {/* <CounterContainer>999</CounterContainer> */}
     </TransparentDiv>
   );
 };

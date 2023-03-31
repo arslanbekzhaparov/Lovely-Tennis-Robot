@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@splinetool/runtime": "^0.9.279",
     "@types/react-router-dom": "5.3.3",
     "font-face": "^2.3.4",
     "react": "^18.2.0",
