@@ -6,6 +6,7 @@ import RectangleAndCircles from './visual1';
 import VolumeControl from './volumectrl';
 import RectangleAndRectangle from './visual2';
 import GridComponent from './numbergrid';
+import WebSocketComponent from './websocket';
 
 const StartButton = styled.button`
   background-image: StartImg;

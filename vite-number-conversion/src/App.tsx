@@ -8,7 +8,7 @@ import Bar from './components/bar'
 import Background from './components/background'
 import UnderBar from './components/underbar'
 import LastSpace from './components/footer'
-
+import WebSocketComponent from './components/websocket'
 
 function App() {
   const [count, setCount] = useState(0)
