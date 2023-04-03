@@ -55,7 +55,8 @@ const Start = () => {
   };
 
   const handleWebSocketInit = () => {
-    const ws = new WebSocket('ws://192.168.1.100'); // replace with the IP address of your ESP32 WebSocket server
+    // const ws = new WebSocket('ws://192.168.1.91:5173'); // replace with the IP address of your ESP32 WebSocket server
+    const ws = new WebSocket('wss://lovely-tennis-robot.vercel.app/'); //remote server
     ws.addEventListener('open', handleWebSocketOpen);
     ws.addEventListener('message', handleWebSocketMessage);
     ws.addEventListener('error', handleWebSocketError);
