@@ -28,7 +28,7 @@ const Animation = () => {
     <Container>
       <Canvas id="canvas3d" />
       <CounterContainer>
-        <Counter size={100} z-index={-2} />
+        {/* <Counter size={100} z-index={-2} /> */}
       </CounterContainer>
     </Container>
   );

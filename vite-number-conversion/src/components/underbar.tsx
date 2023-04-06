@@ -7,6 +7,7 @@ import VolumeControl from './volumectrl';
 import RectangleAndRectangle from './visual2';
 import GridComponent from './numbergrid';
 import WebSocketComponent from './websocket';
+import Mode from './modecomponent';
 
 const StartButton = styled.button`
   background-image: StartImg;
@@ -36,6 +37,8 @@ const UnderBarWrapper = styled.div`
   max-width: 100%;
   overflow-x: hidden;
 `;
+
+
 
 const LeftUnderBar = styled.div`
   width: 50%;
@@ -94,6 +97,16 @@ const Visual = styled.div`
     margin-bottom: 20px;
 `;
 
+const Visua1 = styled.div`
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+`;
+
+
 
 
 const UnderText = styled.div`
@@ -136,9 +149,11 @@ const UnderBar = () => {
         {/* <StartButton> <LogoImg src={StartImg}/></StartButton> */}
       </LeftUnderBar>
       <RightUnderBar>
-      <VolumeControl value={0.5} onChange={handleVolumeChange} />
-        <Visual><RectangleAndRectangle></RectangleAndRectangle></Visual>
-        <GridComponent></GridComponent>
+      {/* <VolumeControl value={0.5} onChange={handleVolumeChange} /> */}
+        <Visua1><RectangleAndRectangle></RectangleAndRectangle></Visua1>
+        <Visua1><RectangleAndCircles></RectangleAndCircles></Visua1>
+        <Mode></Mode>
+        {/* <GridComponent></GridComponent> */}
         {/* <ButtonText>Start</ButtonText> */}
         {/* <Start></Start> */}
       </RightUnderBar>

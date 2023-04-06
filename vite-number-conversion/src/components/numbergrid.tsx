@@ -50,10 +50,10 @@ const GridComponent = () => {
         <Number>50</Number>
         <Description>balls left</Description>
       </div>
-      <div>
+      {/* <div>
         <Number>0</Number>
         <Description>bitches</Description>
-      </div>
+      </div> */}
     </Container>
   );
 };
