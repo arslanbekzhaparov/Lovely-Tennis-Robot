@@ -13,6 +13,13 @@ const Button = styled.img`
   width: 70px;
   height: 70px;
   cursor: pointer;
+  :hover {
+    transform: scale(1.05);
+  }
+
+  :active {
+    transform: scale(0.95);
+  }
 `;
 
 const Number = styled.div`
