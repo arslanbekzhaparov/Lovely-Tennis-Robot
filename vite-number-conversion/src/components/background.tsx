@@ -18,7 +18,7 @@ const BackgroundWrapper = styled.div`
 `;
 
 const VerticalLine = styled.div`
-  position: relative;
+  position: fixed;
   width: 2px;
   height: 400px;
   left: calc(50%); /* center line horizontally */
@@ -27,7 +27,7 @@ const VerticalLine = styled.div`
 `;
 
 const HorizontalLine = styled.div`
-  position: absolute;
+  position: fixed;
   width: 2px;
   height: 100vw;
   left: 200px;
