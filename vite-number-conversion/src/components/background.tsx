@@ -18,20 +18,20 @@ const BackgroundWrapper = styled.div`
 `;
 
 const VerticalLine = styled.div`
-  position: fixed;
+  position: absolute;
   width: 2px;
   height: 400px;
   left: calc(50%); /* center line horizontally */
-  top: 340px;
+  top: 300px;
   background: #070707;
 `;
 
 const HorizontalLine = styled.div`
-  position: fixed;
+  position: absolute;
   width: 2px;
   height: 100vw;
   left: 200px;
-  top: 540px;
+  top: 500px;
   background: #070707;
   transform: rotate(-90deg);
 `;
