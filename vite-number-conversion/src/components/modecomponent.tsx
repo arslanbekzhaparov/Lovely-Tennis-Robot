@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, createContext  } from 'react';
 import styled from 'styled-components';
 import Decrement from '/Decrement.svg'
 import Increment from '/Increment.svg'
@@ -37,27 +37,27 @@ const Number = styled.div`
 `;
 
 const Mode = () => {
-    const [count, setCount] = useState(0);
-  
-    const handleIncrement = () => {
-      if (count < 3) {
-        setCount(count + 1);
-      }
-    };
-  
-    const handleDecrement = () => {
-      if (count > 0) {
-        setCount(count - 1);
-      }
-    };
-  
-    return (
+  const [count, setCount] = useState<number>(0);
+
+  const handleIncrement = () => {
+    if (count < 3) {
+      setCount(count + 1);
+    }
+  };
+
+  const handleDecrement = () => {
+    if (count > 0) {
+      setCount(count - 1);
+    }
+  };
+
+  return (
       <Wrapper>
         <Button src={Increment} onClick={handleIncrement} />
         <Number>{count}</Number>
         <Button src={Decrement} onClick={handleDecrement} />
       </Wrapper>
-    );
-  };
-  
-  export default Mode;
+  );
+};
+
+export default Mode;

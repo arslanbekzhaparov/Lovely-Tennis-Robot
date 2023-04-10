@@ -8,6 +8,7 @@ const InteractiveSpline = styled.div`
   top: 0px;
   left: 0;
   z-index: 1;
+  // display: none;
 `;
 
 const CounterContainer = styled.div`
