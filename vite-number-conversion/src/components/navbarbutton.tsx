@@ -23,8 +23,11 @@ const Button = styled.div<ButtonProps>`
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: ${props => props.isOn ? '#98fb98' : '#803B1E'};
+  // background-color: ${props => props.isOn ? '#98fb98' : '#803B1E'};
+  background-color: #ffffff;
+  opacity: .00001;
   transition: background-color 0.3s ease;
+  
   
   &::before {
     content: '';

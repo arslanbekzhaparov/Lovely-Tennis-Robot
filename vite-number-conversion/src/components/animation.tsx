@@ -11,16 +11,17 @@ const Container = styled.div`
 `;
 
 const Canvas = styled.canvas`
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
 `;
+
 
 const Animation = () => {
   useEffect(() => {
     const canvas = document.getElementById('canvas3d') as HTMLCanvasElement;
     if (canvas) {
       const app = new Application(canvas);
-      app.load('https://prod.spline.design/bHQaumKwe1ywr4V7/scene.splinecode');
+      app.load('https://prod.spline.design/mrYzjx25kF9KU0n4/scene.splinecode');
     }
   }, []);
 

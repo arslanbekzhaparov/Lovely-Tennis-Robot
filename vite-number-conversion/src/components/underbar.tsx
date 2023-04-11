@@ -189,7 +189,7 @@ const handleVolumeChange = (value: number) => {
     return (
       <UnderBarWrapper>
         <LeftUnderBar>
-          <TopText>Top Text</TopText>
+          <TopText></TopText>
           <BottomText>Press to Start your session</BottomText>
           <ButtonText>Start</ButtonText>
           <Start count={count} />

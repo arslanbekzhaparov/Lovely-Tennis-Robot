@@ -8,16 +8,16 @@ const InteractiveSpline = styled.div`
   top: 0px;
   left: 0;
   z-index: 1;
-  // display: none;
+  display: none;
 `;
 
-const CounterContainer = styled.div`
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 128px;
-  line-height: 150px;
-  color: #D1F851;
+const ImageContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  background-image: url('/TennisCourt.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 `;
 
 const TransparentDiv = styled.div`
@@ -30,7 +30,7 @@ const Bar = () => {
   return (
     <TransparentDiv>
       <InteractiveSpline><Animation></Animation></InteractiveSpline>
-      {/* <CounterContainer>999</CounterContainer> */}
+      <ImageContainer />
     </TransparentDiv>
   );
 };

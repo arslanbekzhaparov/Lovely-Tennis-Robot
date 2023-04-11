@@ -29,6 +29,7 @@ const StartButtonImage = styled.img`
   height: 170px;
 `;
 
+
 const Start = ({ count }: { count: number }) => {
   const [webSocket, setWebSocket] = useState<WebSocket | null>(null);
 
@@ -36,16 +37,16 @@ const Start = ({ count }: { count: number }) => {
     let message = '';
     switch (count) {
       case 0:
-        message = 'Button clicked with count 0';
+        message = '0';
         break;
       case 1:
-        message = 'Button clicked with count 1';
+        message = '1';
         break;
       case 2:
-        message = 'Button clicked with count 2';
+        message = '2';
         break;
       case 3:
-        message = 'Button clicked with count 3';
+        message = '3';
         break;
       default:
         message = 'Button clicked with unknown count';
@@ -77,7 +78,7 @@ const Start = ({ count }: { count: number }) => {
 
 
   const handleWebSocketInit = () => {
-    const ws = new WebSocket('ws://192.168.1.91:5173'); // replace with the IP address of your ESP32 WebSocket server
+    const ws = new WebSocket('ws://172.20.10.6:5173'); // replace with the IP address of your ESP32 WebSocket server
     // const ws = new WebSocket('wss://lovely-tennis-robot.vercel.app/'); //remote server
     ws.addEventListener('open', handleWebSocketOpen);
     ws.addEventListener('message', handleWebSocketMessage);
