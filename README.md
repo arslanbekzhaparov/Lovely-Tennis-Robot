@@ -1,6 +1,10 @@
 # Lovely Tennis Robot
 The Lovely Tennis Robot is an app designed to enhance the experience of playing tennis with a physical robot. The app was created after extensive research and discussions with stakeholders, including potential customers and tennis coaches. The goal was to create an app that not only enhances the experience with the physical robot but also accommodates the needs and preferences of the users.
 
+![alt text](https://github.com/arslanbekzhaparov/Lovely-Tennis-Robot/blob/main/iPhone%2014%20-%204%20(1).png?raw=true)
+
+![alt text](https://github.com/arslanbekzhaparov/Lovely-Tennis-Robot/blob/main/iPhone%2014%20-%203%20(1).png?raw=true)
+
 The app was built using a combination of React and Vite, with TypeScript as the primary coding language, to ensure type safety and improve overall reliability and maintainability of the code. The use of a WebSocket communication system allows for seamless communication between the app and the physical robot, enabling the app to directly control the robot's movements and shots.
 
 # Features
