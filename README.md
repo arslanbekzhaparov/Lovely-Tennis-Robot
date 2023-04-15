@@ -1,7 +1,7 @@
 # Lovely Tennis Robot
 The Lovely Tennis Robot is an app designed to enhance the experience of playing tennis with a physical robot. The app was created after extensive research and discussions with stakeholders, including potential customers and tennis coaches. The goal was to create an app that not only enhances the experience with the physical robot but also accommodates the needs and preferences of the users.
 
-Home Screen            |  Editing Screen
+Editing Screen          |  Home Screen
 :-------------------------:|:-------------------------:
 ![](https://github.com/arslanbekzhaparov/Lovely-Tennis-Robot/blob/main/iPhone%2014%20-%203%20(1).png?raw=true))  |  ![](https://github.com/arslanbekzhaparov/Lovely-Tennis-Robot/blob/main/iPhone%2014%20-%204%20(1).png?raw=true)
 
